@@ -1,5 +1,6 @@
-//
-// Created by trbec on 09.06.2026.
-//
-
+#include "BUS.h"
 #include "CPU.h"
+
+void CPU::connectBus(BUS* targetBus) {
+    bus = targetBus;
+}
